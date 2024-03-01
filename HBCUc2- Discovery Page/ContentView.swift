@@ -12,20 +12,32 @@ struct ContentView: View {
     @State var searchText = ""
     
     var body: some View {
+        
         NavigationView {
+            
             List {
                 ForEach(users, id: \.self) { user in
+                    //horizontal stack of fprofiles ocntaining image and text
+                    
                     HStack {
+                        Image("Diana")
+                            .resizable()
+                        //.aspectRatio(contentMode: .fit)
+                        //.scaledToFit()
+                            .scaledToFill()
+                            .frame(width: 40, height: 40)
+                            .clipShape(Circle())
                         Text(user.capitalized)
                         Spacer()
                         Image(systemName: "figure.wave")
                             .foregroundColor(Color.blue)
                     }
-                    .padding(25)
+                    .padding(40)
                 }
             }
             .searchable(text: $searchText)
             .navigationTitle("Discover")
+            
         }
         
     }

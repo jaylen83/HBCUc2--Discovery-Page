@@ -12,6 +12,7 @@
 		FFB7FAC42B885FA00023CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB7FAC32B885FA00023CC29 /* Assets.xcassets */; };
 		FFB7FAC72B885FA00023CC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB7FAC62B885FA00023CC29 /* Preview Assets.xcassets */; };
 		FFB7FACE2B8C25F90023CC29 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7FACD2B8C25F90023CC29 /* SampleData.swift */; };
+		FFB7FAD02B9129DF0023CC29 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7FACF2B9129DF0023CC29 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FFB7FAC32B885FA00023CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFB7FAC62B885FA00023CC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFB7FACD2B8C25F90023CC29 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		FFB7FACF2B9129DF0023CC29 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				FFB7FAC32B885FA00023CC29 /* Assets.xcassets */,
 				FFB7FAC52B885FA00023CC29 /* Preview Content */,
 				FFB7FACD2B8C25F90023CC29 /* SampleData.swift */,
+				FFB7FACF2B9129DF0023CC29 /* RemoteImage.swift */,
 			);
 			path = "HBCUc2- Discovery Page";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				FFB7FAC22B885F9D0023CC29 /* ContentView.swift in Sources */,
 				FFB7FACE2B8C25F90023CC29 /* SampleData.swift in Sources */,
 				FFB7FAC02B885F9D0023CC29 /* HBCUc2__Discovery_PageApp.swift in Sources */,
+				FFB7FAD02B9129DF0023CC29 /* RemoteImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
